@@ -1,0 +1,14 @@
+
+Steps:
+
+a. Login as simple user and choose the social login with help of user and password
+
+b. From Captured request saw the auth URI not using state parameter with oath link and here is the chances for CSRF.
+
+c. Capture the request again and copy URL with drop intercept.
+
+d. Help of <iframe> we are using csrf payload and send to victim.
+
+Example code for CSRF:
+
+<iframe src="https://example.com/oath-linking?abcdefghij"></iframe>
