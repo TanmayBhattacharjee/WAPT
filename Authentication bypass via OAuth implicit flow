@@ -1,0 +1,14 @@
+#OATH#
+
+
+1. Authentication bypass via OAuth implicit flow
+
+Steps:
+
+a. Access website from browser
+b. Click in MyAccount and login from social account like fb or twitter or linkedin
+c. Captures the requests in Burp and check the data flows.
+d. Choose POST method and check for  /authorization from HTTP HIstory and move to repeater
+e. Change email id with others email id and send request.
+f. Check from browser for authentication bypass to others accounts.
+g. If it is successful then it is vulnerability for Authentication bypass for OAuth implicit flow.
