@@ -1,0 +1,11 @@
+Steps:
+
+1. Access via social login and check auth uri and tampering redirect URI.
+
+2. Creating exploit server and check the access-log from there
+
+3. Using exploit server url in redirect_uri and check for response and we are successfully manipulate it.
+
+4. After this we could be hijact the token and use that token in oath call.
+
+5. If it is successful then it will be give us choiceful response.
